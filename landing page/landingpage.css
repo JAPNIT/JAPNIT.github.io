@@ -1,14 +1,19 @@
 
+.line
+{
+	padding-top: .5em;
+}
 #cover
 {
-	background-color:  rgba(255,51,85,.85);
+	background-color:rgba(255,51,85,.85);
 	color: white;
-}
+	height: 60vh;
+}s
 
 #mission
 {
 	min-height: 40vh;
-	text-align: center;
+	text-align: justify;
 	padding-bottom: 32px;
 }
 
@@ -23,7 +28,7 @@
 
 .css-typing
 {
-    width: 15em;
+    width: 60rem;
     white-space:nowrap;
     overflow:hidden;
     margin: 0 auto;
