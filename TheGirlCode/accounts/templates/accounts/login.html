@@ -12,14 +12,17 @@
 </head>
 
 <body>
+<div class="container">
 
-    <h1> Login Page </h1>
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <br>
-        <button type="submit">Login</button>
-    </form>
+  <center><h1> Login Page </h1></center>
+  <form method="POST">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <br>
+      <button type="submit">Login</button>
+  </form>
+
+</div>
 
 </body>
 </html>
